@@ -60,7 +60,7 @@ function studocuStep(url) {
     }
 
     documentContainer.innerHTML = documentContainer.innerHTML
-      .replace(/(display:( ?)none(;?)|filter:( ?)blur\(4px\)(;?))/gm, "");
+      .replace(/(display:( ?)none(;?)|filter:( ?)blur\(4px\)(;?)|user-select:( ?)none(;?))/gm, "");
 
   }
 }
