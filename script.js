@@ -60,10 +60,8 @@ function studocuStep(url) {
     }
 
     documentContainer.innerHTML = documentContainer.innerHTML
-      .replace(/style="user-select:none;filter:blur\(4px\)"/gm, "")
-      .replace(
-        /style="user-select: none; filter: blur\(4px\); display: block;"/g
-      );
+      .replace(/(display:( ?)none(;?)|filter:( ?)blur\(4px\)(;?))/gm, "");
+
   }
 }
 
