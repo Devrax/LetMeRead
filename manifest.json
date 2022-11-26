@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Let me read",
     "description": "Enable reading mode on pages where text is blurred or limited",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "icons": {
         "16": "images/letmeread-16.png",
         "32": "images/letmeread-32.png",
@@ -15,7 +15,5 @@
     },
     "permissions": ["activeTab", "tabs"],
     "optional_permissions": ["scripting", "cookies"],
-    "host_permissions": [
-      "https://*.medium.com/"
-    ]
+    "host_permissions": ["<all_urls>"]
   }
