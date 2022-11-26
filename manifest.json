@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Let me read",
-    "description": "Enable reading mode on some pages where text does have some kind of blur or text-shadow",
+    "description": "Enable reading mode on pages where text is blurred or limited",
     "version": "0.1.0",
     "icons": {
         "16": "images/letmeread-16.png",
