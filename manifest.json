@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Let me read",
     "description": "Enable reading mode on some pages where text does have some kind of blur or text-shadow",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "icons": {
         "16": "images/letmeread-16.png",
         "32": "images/letmeread-32.png",
@@ -13,5 +13,9 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["activeTab", "scripting", "tabs"]
+    "permissions": ["activeTab", "tabs"],
+    "optional_permissions": ["scripting", "cookies"],
+    "host_permissions": [
+      "https://*.medium.com/"
+    ]
   }
