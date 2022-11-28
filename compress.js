@@ -5,7 +5,7 @@ const output = fs.createWriteStream(__dirname + '/archive.zip');
 const archive = archiver('zip', {
   zlib: { level: 9 }
 });
-const rootPath = __dirname + '/src';
+const rootPath = __dirname + '/src-minified';
 
 archive.on('error', function(err) {
   throw err;

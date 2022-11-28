@@ -4,6 +4,11 @@
     <img src="./common/letmereadicon.svg"/>
 </p>
 
+<p align="center">
+    <img src="https://img.shields.io/badge/Status-review-yellowgreen?style=flat&logo=googlechrome"/>
+    <img src="https://img.shields.io/badge/-rejected-red?style=flat&logo=googlechrome&logoColor=blue"/>
+</p>
+
 A Chrome extension that allows you to read those documents which texts are blurred or content is limited by local cookies.
 
 For now only works on scribd, studocu and medium, but in the future is supposed to be more expanded for pages that blur or limite their content using client.
