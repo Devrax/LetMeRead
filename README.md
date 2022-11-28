@@ -16,9 +16,9 @@ For now only works on scribd, studocu and medium, but in the future is supposed 
 
 > <span style="color: red;">IMPORTANT:</span> This extension do not collect any user data or retrieve data from any server
 
-> [How to install unofficially](#How-it-works-for-limited-content)
-> [How it works unblurring](#How-it-works-unblurring)
-> [How it works for limited content](#How-it-works-for-limited-content)
+* [How to install unofficially](#How-it-works-for-limited-content)
+* [How it works unblurring](#How-it-works-unblurring)
+* [How it works for limited content](#How-it-works-for-limited-content)
 
 ## How to install unofficially
 
