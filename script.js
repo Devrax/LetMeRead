@@ -24,7 +24,7 @@ function scribdStep(url) {
       Array.from(childPage.children).forEach((child) => {
         child.style.textShadow = "black 0px 0px 0px";
       });
-      childPage.nextElementSibling.remove();
+      childPage?.nextElementSibling?.remove();
     }
   }
 }
@@ -65,17 +65,43 @@ function studocuStep(url) {
   }
 }
 
+function generalUnblurStep() {
+
+  const blurRemover = (htmlElement) => {
+
+    htmlElement.style.filter = '';
+    htmlElement.style.userSelect = '';
+    htmlElement.style.textShadow = 'black 0px 0px 0px';
+
+    const children = Array.from(htmlElement.children);
+
+    if(children.length > 0) {
+      for(let child of children) {
+        blurRemover(child);
+      };
+    }
+
+  }
+
+
+  if(document.body) {
+
+    blurRemover(document.body);
+
+  }
+
+}
+
 (function () {
   const url = window.location.href,
-    availableSites = url.toLocaleLowerCase().match(/(scribd|studocu)/gm);
+    availableSites = url.toLocaleLowerCase().match(/(scribd|studocu)/gm) || [''];
 
-  if (availableSites == null) return;
   switch (availableSites[0]) {
     case "scribd":
       return scribdStep(url);
     case "studocu":
       return studocuStep(url);
     default:
-      return alert("Sorry :(");
+      return generalUnblurStep();
   }
 })();
