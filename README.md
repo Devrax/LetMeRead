@@ -13,17 +13,25 @@ A Chrome extension that allows you to read those documents which texts are blurr
 
 For now only works on scribd, studocu and medium, but in the future is supposed to be more expanded for pages that blur or limite their content using client.
 
+
 > <span style="color: red;">IMPORTANT:</span> This extension do not collect any user data or retrieve data from any server
 
-## How it works on scribd and studocu
+> [How to install unofficially](#How-it-works-for-limited-content)
+> [How it works unblurring](#How-it-works-unblurring)
+> [How it works for limited content](#How-it-works-for-limited-content)
+
+## How to install unofficially
+
+If you are using based Chromium browsers [click here](chrome://extensions), enable developer mode and click on `Load unpacked` and select the src folder and that's all
+
+## How it works unblurring
 <figure>
     <img src="./common/before-after.png"
          alt="blur text to unblur">
     <figcaption>An example of how the extension works in those documents</figcaption>
 </figure>
 
-## How it works on medium
-
+## How it works for limited content
 <figure>
     <img src="./common/working-on-medium.gif"
          alt="How unlock limited content on medium">
