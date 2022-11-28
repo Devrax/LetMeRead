@@ -1,0 +1,22 @@
+{
+  "name": "letmeread",
+  "version": "0.2.0",
+  "description": "A chrome extension for unblurring text on any website",
+  "scripts": {
+    "compress": "node compress.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devrax/LetMeRead.git"
+  },
+  "keywords": [],
+  "author": "Rafael Mejia",
+  "license": "unlicense",
+  "bugs": {
+    "url": "https://github.com/Devrax/LetMeRead/issues"
+  },
+  "homepage": "https://github.com/Devrax/LetMeRead#readme",
+  "dependencies": {
+    "archiver": "^5.3.1"
+  }
+}
