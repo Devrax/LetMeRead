@@ -22,7 +22,7 @@ For now only works on scribd, studocu and medium, but in the future is supposed 
 
 ## How to install unofficially
 
-If you are using based Chromium browsers [click here](chrome://extensions), enable developer mode and click on `Load unpacked` and select the src folder and that's all
+If you are using based Chromium browsers <a href="chrome://extensions">click here</a>, enable developer mode and click on `Load unpacked` and select the src folder and that's all
 
 ## How it works unblurring
 <figure>
