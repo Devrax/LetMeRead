@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/On-going-rejected-red?style=flat&logo=googlechrome"/>
+    <img src="https://img.shields.io/badge/Status-rejected-red?style=flat&logo=googlechrome"/>
     <img src="https://img.shields.io/badge/Current-rejected-red?style=flat&logo=googlechrome&logoColor=blue"/>
 </p>
 
