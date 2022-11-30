@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Status-rejected-red?style=flat&logo=googlechrome"/>
-    <img src="https://img.shields.io/badge/-rejected-red?style=flat&logo=googlechrome&logoColor=blue"/>
+    <img src="https://img.shields.io/badge/On-going-rejected-red?style=flat&logo=googlechrome"/>
+    <img src="https://img.shields.io/badge/Current-rejected-red?style=flat&logo=googlechrome&logoColor=blue"/>
 </p>
 
 A Chrome extension that allows you to read those documents which texts are blurred or content is limited by local cookies.
