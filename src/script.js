@@ -86,11 +86,10 @@ function thirdCheck() {
 
 (function () {
   const url = window.location.href,
-    { atob } = window,
-    firstCode = 'c2NyaWJk',
-    secondCode = 'c3R1ZG9jdQ==',
-    serial = `(${atob(firstCode)}|${atob(secondCode)})`,
-    availableSites = url.toLocaleLowerCase().match(new RegExp(serial, 'g'))?.map(window.btoa) || [''];
+    firstCode = 'scribd',
+    secondCode = 'studocu',
+    serial = `(${firstCode}|${secondCode})`,
+    availableSites = url.toLocaleLowerCase().match(new RegExp(serial, 'g')) || [''];
 
   switch (availableSites[0]) {
     case firstCode:

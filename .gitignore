@@ -4,3 +4,4 @@ yarn.lock
 src-minified
 archive
 archive.zip
+/common/*.pem

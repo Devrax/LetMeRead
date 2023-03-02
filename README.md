@@ -16,7 +16,7 @@ For now only works on scribd, studocu and medium, but in the future is supposed 
 
 > <span style="color: red;">IMPORTANT:</span> This extension do not collect any user data or retrieve data from any server
 
-> <span style="color: red;">IMPORTANT:</span> This extension is currently working but it cannot be publish, sorry about that. :(
+> <span style="color: red;">IMPORTANT:</span> This extension is currently working but it cannot be publish on chrome extensions, but you can obtaine the most recent package <a download href="/common/letmeread.crx" name="letmeread.crx">here</a>
 
 * [How to install unofficially](#How-to-install-unofficially)
 * [How it works unblurring](#How-it-works-unblurring)
