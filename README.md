@@ -1,3 +1,5 @@
+> If you want to read articles from medium for free, check this extension of mine: [Seecache](https://github.com/Devrax/seecache)
+
 # Let Me Read
 
 <p align="center">
